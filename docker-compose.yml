@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  graphql-go-app:
+    build: .
+    ports:
+      - '1337:1337'
